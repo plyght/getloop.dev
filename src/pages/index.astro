@@ -4,10 +4,8 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -40,8 +38,8 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Loop</span> is a free and open-source window manager for macOS.
-        Simplify your window management with effortless controls and customizable options.</span
+        <span class="font-semibold">Loop</span> is a free and open-source window manager for macOS. Simplify your window
+        management with effortless controls and customizable options.</span
       >
       <span class="block mb-1 sm:hidden font-bold text-blue-600">Loop: Simplify Your Workflow.</span>
       Save time and enhance productivity with intuitive window manipulation.
@@ -51,7 +49,8 @@ const metadata = {
   <!-- Note Widget ******************* -->
 
   <Note>
-    Loop is constantly evolving, with new features and improvements added regularly to enhance your window management experience on macOS.
+    Loop is constantly evolving, with new features and improvements added regularly to enhance your window management
+    experience on macOS.
   </Note>
 
   <!-- Features Widget *************** -->
@@ -76,26 +75,22 @@ const metadata = {
       },
       {
         title: 'Keyboard Shortcuts',
-        description:
-          'Assign custom key combinations to initiate specific window actions for a faster workflow.',
+        description: 'Assign custom key combinations to initiate specific window actions for a faster workflow.',
         icon: 'tabler:keyboard',
       },
       {
         title: 'Cycles',
-        description:
-          'Perform multiple window manipulations in quick succession by repeating key presses or clicks.',
+        description: 'Perform multiple window manipulations in quick succession by repeating key presses or clicks.',
         icon: 'tabler:repeat',
       },
       {
         title: 'Theming',
-        description:
-          'Fully customize the appearance of the radial menu and preview window to match your style.',
+        description: 'Fully customize the appearance of the radial menu and preview window to match your style.',
         icon: 'tabler:palette',
       },
       {
         title: 'Open Source',
-        description:
-          'Loop is open-source under the GNU GPLv3 license, welcoming contributions from the community.',
+        description: 'Loop is open-source under the GNU GPLv3 license, welcoming contributions from the community.',
         icon: 'tabler:code',
       },
     ]}
@@ -110,18 +105,15 @@ const metadata = {
     items={[
       {
         title: 'Intuitive Controls',
-        description:
-          'Hold down the trigger key and move your cursor to easily move and resize windows.',
+        description: 'Hold down the trigger key and move your cursor to easily move and resize windows.',
       },
       {
         title: 'Customizable Actions',
-        description:
-          'Set up keyboard shortcuts and cycles to streamline your window management tasks.',
+        description: 'Set up keyboard shortcuts and cycles to streamline your window management tasks.',
       },
       {
         title: 'Personalized Experience',
-        description:
-          'Adjust the radial menu and preview window to your liking with extensive theming options.',
+        description: 'Adjust the radial menu and preview window to your liking with extensive theming options.',
       },
     ]}
     image={{
@@ -130,9 +122,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Radial Menu &amp; Preview
-      </h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Radial Menu &amp; Preview</h3>
       Experience a new way to interact with your windows using Loop's intuitive radial menu and live preview.
     </Fragment>
 
@@ -149,7 +139,7 @@ const metadata = {
       {
         title: 'Step 1: <span class="font-medium">Download Loop</span>',
         description:
-          "Get Loop from Homebrew or download it directly from the release page to start simplifying your workflow.",
+          'Get Loop from Homebrew or download it directly from the release page to start simplifying your workflow.',
         icon: 'tabler:download',
       },
       {
@@ -185,23 +175,19 @@ const metadata = {
     items={[
       {
         title: 'Is Loop compatible with my macOS version?',
-        description:
-          'Loop is compatible with macOS 13 and later versions.',
+        description: 'Loop is compatible with macOS 13 and later versions.',
       },
       {
         title: 'How do I install Loop using Homebrew?',
-        description:
-          'Run `brew install loop` in your terminal to install Loop via Homebrew.',
+        description: 'Run `brew install loop` in your terminal to install Loop via Homebrew.',
       },
       {
         title: 'Can I customize the radial menu?',
-        description:
-          'Yes, you can fully customize the radial menu’s width, shape, color, and toggle its visibility.',
+        description: 'Yes, you can fully customize the radial menu’s width, shape, color, and toggle its visibility.',
       },
       {
         title: 'Is Loop really free?',
-        description:
-          'Absolutely! Loop is free and open-source under the GNU GPLv3 license.',
+        description: 'Absolutely! Loop is free and open-source under the GNU GPLv3 license.',
       },
       {
         title: 'How can I contribute to Loop?',
@@ -210,8 +196,7 @@ const metadata = {
       },
       {
         title: 'Where can I report bugs or request features?',
-        description:
-          'Please open an issue on our GitHub page to report bugs or suggest new features.',
+        description: 'Please open an issue on our GitHub page to report bugs or suggest new features.',
       },
     ]}
   />
@@ -239,9 +224,7 @@ const metadata = {
       },
     ]}
   >
-    <Fragment slot="title">
-      Simplify Your Window Management with Loop
-    </Fragment>
+    <Fragment slot="title"> Simplify Your Window Management with Loop </Fragment>
 
     <Fragment slot="subtitle">
       Download Loop today and experience a more efficient way to manage your workspace on macOS.
