@@ -11,14 +11,14 @@ metadata:
   title:
     default: Loop
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Loop, Window Management Made Elegant"
   robots:
     index: true
     follow: true
   openGraph:
     site_name: AstroWind
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/hero.png'
         width: 1200
         height: 628
     type: website
