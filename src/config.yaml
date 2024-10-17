@@ -16,7 +16,7 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Loop
     images:
       - url: '~/assets/images/hero.png'
         width: 1200
