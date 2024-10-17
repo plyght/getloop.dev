@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Loop
-    template: '%s — AstroWind'
+    template: '%s — MrKai77/Loop'
   description: "\U0001F680 Loop, Window Management Made Elegant"
   robots:
     index: true
